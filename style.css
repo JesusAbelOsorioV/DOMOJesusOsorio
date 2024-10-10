@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Signika Negative", Arial, Helvetica, sans-serif;
+}
+.colMain {
+  background: linear-gradient(
+    to bottom left,
+    rgba(2, 43, 65, 255),
+    85%,
+    rgba(0, 57, 87, 255)
+  );
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  padding-bottom: 10%;
+}
+.col1 {
+  display: flex;
+  justify-content: space-between;
+}
+.col2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-image: url("/img/ofic1.jpg");
+}
+.welcomeDiv {
+  border-radius: 20px;
+  border: 2px solid, #274659;
+  color: #f9fafb;
+  width: 200px;
+  margin-left: 50px;
+  /* margin-top: 5%; */
+}
+.ico {
+  width: 15px;
+  height: 15px;
+}
+
+.join {
+  /* margin-top: 10%; */
+  color: #f9fafb;
+  font-size: 47px;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 50px;
+  font-weight: bolder;
+}
+.p {
+  text-decoration: underline;
+  text-decoration-color: #0165aa;
+}
+
+.linea {
+  height: 2px;
+  width: 75%;
+  background-color: #0e334a;
+  margin-left: 100px;
+  /* margin-top: 10%; */
+}
+.txt {
+  /* margin-top: 10%; */
+  color: #f9fafb;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: justify;
+  margin-left: 50px;
+}
+
+.buttom {
+  align-self: center;
+  padding: 7px;
+  border-radius: 20px;
+  width: 40%;
+  font-size: 16px;
+  background-color: white;
+  color: #022b41;
+  cursor: pointer;
+  width: 30%;
+  margin-top: 50px;
+}
+a{
+  text-decoration: none;
+  color: #022b41;
+}
+
+.btn {
+  align-self: center;
+  border-radius: 20px;
+  width: 40%;
+  font-size: 16px;
+  background-color: white;
+  border: 2px solid, #022b41;
+  color: #022b41;
+  width: 110%;
+}
+.btn2 {
+  border-radius: 20px;
+  width: 115px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: white;
+  border-style: none;
+  margin-left: -70%;
+}
+.btn2:hover {
+  color: white;
+  background-color: #022b41;
+}
+#btnContact:hover{
+  color: white;
+}
+
+.div1{
+  background-color: #022b41;
+  color: white;
+  max-width: 100%;
+  height: 450px;
+}
+
+/* form */
+
+.form {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  width: 450px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
+}
+
+.form .title {
+  color: #022b41;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border: 2px solid, #022b41;
+  border-radius: 20px;
+  padding: 7px;
+}
+::placeholder {
+  font-size: 16px;
+  font-weight: 600;
+  color: #022b41;
+}
+
+.form input {
+  outline: 0;
+  border: 1px solid, rgb(219, 213, 213);
+  border-radius: 5px;
+  padding: 8px 25px;
+  width: 48%;
+  height: 50px;
+  color: #022b41;
+}
+input:hover{
+  border: 2px solid, #022b41;
+}
+
+.form textarea {
+  height: 100px;
+  width: 100%;
+  resize: none;
+  outline: 0;
+  padding: 8px 14px;
+  border: 1px solid, rgb(219, 213, 213);
+  border-radius: 5px;
+  color: #022b41;
+}
+textarea:hover{
+  border: 2px solid, #022b41;
+}
+
+.form button {
+  align-self: center;
+  padding: 8px;
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: white;
+  border: 2px solid, #022b41;
+  color: #022b41;
+  cursor: pointer;
+  width: 100%;
+}
+.btn3:hover{
+  border: 2px solid, white;
+  background-color: #022b41;
+  color: white;
+}
+
+@media (max-width: 609px){
+    .welcomeDiv{
+      display: flex;
+      
+    }
+    .join{
+      display: none;
+    }
+    .linea{
+      display: none;
+    }
+    .txt{
+      display: none;
+    }
+    .btn2{
+      margin-inline-start: auto;
+    }
+}
+
+@media(max-width: 1000px){
+  .welcomeDiv{
+    margin-inline-end: auto;
+  }
+
+  .join{
+    margin-inline-start: auto;
+  }
+  .linea{
+    display: none;
+  }
+  .txt{
+    display: none;
+  }
+  .btn2{
+    margin-inline-start: auto;
+  }
+
+}
+
